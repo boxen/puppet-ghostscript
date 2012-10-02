@@ -1,4 +1,15 @@
-# Puppet ghostscript for Boxen
+# Ghostscript Puppet Module for Boxen
 
-FIXME: update me bro
+Requires the following boxen modules:
 
+* `autoconf`
+* `boxen`
+* `homebrew`
+* `libtool`
+* `xquartz`
+
+## Usage
+
+```puppet
+include ghostscript
+```

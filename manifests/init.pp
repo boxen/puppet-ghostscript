@@ -3,8 +3,8 @@ class ghostscript {
   require libtool
   require xquartz
 
-  package { 'github/brews/ghostscript':
-    ensure  => '9.05-github1',
+  package { 'boxen/brews/ghostscript':
+    ensure  => '9.05-boxen1',
     require => [
       Package['autoconf'],
       Package['libtool'],
