@@ -1,3 +1,8 @@
+# Public: Install ghostscript from homebrew.
+#
+# Examples
+#
+#   include ghostscript
 class ghostscript {
   require autoconf
   require libtool
