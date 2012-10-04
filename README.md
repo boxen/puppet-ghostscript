@@ -13,3 +13,9 @@ Requires the following boxen modules:
 ```puppet
 include ghostscript
 ```
+
+## Developing
+
+Write code.
+
+Run `script/cibuild`.
