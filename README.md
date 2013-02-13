@@ -1,12 +1,7 @@
 # Ghostscript Puppet Module for Boxen
 
-Requires the following boxen modules:
-
-* `autoconf`
-* `boxen`
-* `homebrew`
-* `libtool`
-* `xquartz`
+Install [Ghostscript](http://www.ghostscript.com), a PostScript and
+PDF interpreter.
 
 ## Usage
 
@@ -14,8 +9,15 @@ Requires the following boxen modules:
 include ghostscript
 ```
 
-## Developing
+## Required Puppet Modules
 
-Write code.
+* `autoconf`
+* `boxen`
+* `homebrew`
+* `libtool`
+* `xquartz`
 
-Run `script/cibuild`.
+## Development
+
+Write code. Run `script/cibuild` to test it. Check the `script`
+directory for other useful tools.

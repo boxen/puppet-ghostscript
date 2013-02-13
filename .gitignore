@@ -1,8 +1,7 @@
-/.bundle/
-/bin/
-/spec/fixtures/.librarian/
-/spec/fixtures/.tmp/
-/spec/fixtures/vendor/
-/spec/fixtures/modules/autoconf/
-/spec/fixtures/modules/libtool/
-/spec/fixtures/modules/xquartz/
+/.bundle
+/.ruby-version
+/spec/fixtures/.librarian
+/spec/fixtures/.tmp
+/spec/fixtures/Puppetfile.lock
+/spec/fixtures/modules
+/spec/fixtures/vendor
