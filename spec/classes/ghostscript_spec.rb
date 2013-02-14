@@ -1,17 +1,16 @@
 require 'spec_helper'
 
 describe 'ghostscript' do
-  it { should include_class('autoconf') }
-  it { should include_class('libtool') }
-  it { should include_class('xquartz') }
-
   it do
-    should contain_package('boxen/brews/ghostscript').with({
-      :ensure  => '9.05-boxen1',
+    should include_class('autoconf')
+    should include_class('libtool')
+    should include_class('xquartz')
+
+    should contain_package('ghostscript').with({
       :require => [
-        'Package[autoconf]',
-        'Package[libtool]',
-        'Package[XQuartz]',
+        'Class[Autoconf]',
+        'Class[Libtool]',
+        'Class[Xquartz]',
       ]
     })
   end

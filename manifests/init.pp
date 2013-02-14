@@ -4,15 +4,15 @@
 #
 #   include ghostscript
 class ghostscript {
-  require autoconf
-  require libtool
-  require xquartz
+  include autoconf
+  include libtool
+  include xquartz
 
   package { 'ghostscript':
     require => [
-      Package['autoconf'],
-      Package['libtool'],
-      Package['XQuartz']
+      Class['autoconf'],
+      Class['libtool'],
+      Class['xquartz'],
     ]
   }
 }
